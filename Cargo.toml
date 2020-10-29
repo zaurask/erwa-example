@@ -1,0 +1,11 @@
+[package]
+name = "mytodo"
+version = "0.1.0"
+authors = ["sved"]
+edition = "2018"
+
+[workspace]
+members = ["backend", "frontend"]
+
+[dependencies]
+serde = { version = "1.0.117", features = ["derive"] }
